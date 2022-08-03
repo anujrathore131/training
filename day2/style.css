@@ -1,0 +1,35 @@
+body{
+    background-color: white;
+}
+
+p{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+.body-head{
+    background-color: #D3D3D3;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+}
+
+.imgc{
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+
+}
+.listdiv{
+    text-align: center;
+    width: 100vh;
+    padding-left: 57vh;
+}
+
