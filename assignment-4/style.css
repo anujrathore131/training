@@ -103,6 +103,7 @@ aside{
     height: 200px;
     width: 100%;
     background-color: purple;
+    border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,14 +130,14 @@ aside{
 .box{
     padding: 10px;
     background-color: rgb(56, 5, 56);
-    height: 450px;
+    height: 620px;
     width: 20%;
     color: white;
 }
 .box:hover{
     padding: 10px;
     background-color: black;
-    height: 450px;
+    height: 620px;
     width: 20%;
     color: white;
     border: 2px solid purple;
