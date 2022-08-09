@@ -15,13 +15,35 @@ h1{
     text-align: center;
     padding-top: 100px;
 }
-h1:hover{
+.box1:hover h1{
     color: black;
     text-align: center;
     padding-top: 100px;
     
     transition-duration: 2s;
 }
+.box2:hover h1{
+    color: black;
+    text-align: center;
+    padding-top: 100px;
+    
+    transition-duration: 2s;
+}
+.box3:hover h1{
+    color: black;
+    text-align: center;
+    padding-top: 100px;
+    
+    transition-duration: 2s;
+}
+.box4:hover h1{
+    color: black;
+    text-align: center;
+    padding-top: 100px;
+    
+    transition-duration: 2s;
+}
+
 
 .box1{
     background-color: black;
