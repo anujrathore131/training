@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       
+    var name = prompt("Enter Name: ");
+
+    document.body.innerHTML = '<span style = "color:red">'+name+'</span>';
+    const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+        var d = new Date();
+        var datestring = ("0" + d.getDate()).slice(-2) + "-" + ("0"+(d.getMonth()+1)).slice(-2) + "-" +
+    d.getFullYear();
+        var day = weekday[d.getDay()];
+        document.write("<p>today's date: "+datestring+ "</p>");
+        document.write("<p>today's day: "+day+ "</p>");
+
+        var n1 = Number(prompt("Enter Number 1: "));
+        var n2 = Number(prompt("Enter Number 2: "));
+        var c = n1+n2
+        document.write("<p>Addition: "+c+ "</p>");
+        document.write("<p>Subtraction: "+ (n1-n2) + "</p>");
+        document.write("<p>Multiplication: "+(n1*n2)+ "</p>");
+        document.write("<p>Division: "+(n1/n2)+ "</p>");
+
+
+
+
+    </script>
+</body>
+</html>
