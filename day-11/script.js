@@ -3,7 +3,7 @@ var y = document.getElementsByClassName("dirt");
 var btn = document.getElementById("start")
 
 var count=0;
-console.log(x);
+// console.log(x);
 document.getElementById("pointtext").style.visibility = "hidden";
 document.getElementById("currentPoint").style.visibility = "hidden";
 function start(){
@@ -31,7 +31,7 @@ function start(){
     document.getElementById("mole").style.visibility = "hidden";
     document.getElementById("mud").style.visibility = "hidden";
     document.getElementById("pointtext").style.visibility = "visible";
-document.getElementById("currentPoint").style.visibility = "visible";
+    document.getElementById("currentPoint").style.visibility = "visible";
    
 
     setInterval(rat, 1000)
