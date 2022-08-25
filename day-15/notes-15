@@ -1,0 +1,12 @@
+button:
+<script>
+    var myAudio = document.getElementById('myAudio')
+    console.log(myAudio);
+
+    var btn = document.getElementById("btn1");
+
+    btn.onclick = performAudio;
+    function performAudio(){
+        myAudio.play()
+        myAudio.src = ""
+    }
